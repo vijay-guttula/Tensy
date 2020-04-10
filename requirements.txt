@@ -1,5 +1,4 @@
 flask
 flask_bootstrap
 tensorflow
-json
 requests
