@@ -14,14 +14,14 @@ After installing pip3, run the requirements.
 ## Now it's to run the program.
 
 First you need to load the dataset from `docker`.
- $sudo docker run -p 8501:8501 --name=pets -v "/<----the address of the pets folder--->/pets/:/models/pets/1" -e MODEL_NAME=pets tensorflow/serving
+     $sudo docker run -p 8501:8501 --name=pets -v "/<----the address of the pets folder--->/pets/:/models/pets/1" -e MODEL_NAME=pets tensorflow/serving
 
 Please see that you need to specify the address clearly.
 You can close the terminal or start a new one, either ways it runs in the background, you can check by the following command.
- $sudo docker ps
+    $sudo docker ps
 
 Now run the flask server.
- $python3 app.py
+     $python3 app.py
 
 You'll find the page in `localhost:5000` or `127.0.0.1:5000`, open the link in your browser.
 
