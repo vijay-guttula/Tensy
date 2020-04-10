@@ -24,7 +24,7 @@ def index() :
                 'image_path' : image_path,
             }
             return render_template('show.html', result=result)
-    return render_template('index.html') #to this html
+    return render_template('index.html') #to the html
 
 
 if __name__ == '__main__' :
