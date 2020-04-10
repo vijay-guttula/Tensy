@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-This app uses docker which is only avaible on `Window10 Pro` , this doesnt run on `Windows Home` in case of windows but is found easily in case of other os
+This app uses docker which is only avaible on `Window10 Pro or Enterprize` , this doesnt run on `Windows Home`  but is accessible easily in case of other OS
 I recommend using an `Ubuntu` or `Mac` or any `linux` based OS and install `docker`, go to this [link](https://docs.docker.com/get-docker/) for details.
 
 This program needs to be run in `Python3` only. So if you need to install python3's pip use the following command
@@ -13,7 +13,7 @@ After installing pip3, run the requirements.
 
     $pip3 install -r requirements.txt
 
-## Now it's to run the program.
+## Now to run the program,
 
 First you need to load the dataset from `docker`.
 
