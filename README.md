@@ -19,8 +19,10 @@ First you need to load the dataset from `docker`.
 
     $sudo docker run -p 8501:8501 --name=pets -v "/<----the address of the pets folder--->/pets/:/models/pets/1" -e MODEL_NAME=pets tensorflow/serving
 
-Please see that you need to specify the address clearly.
-You can close the terminal or start a new one, either ways it runs in the background, you can check by the following command.
+#### Please see that you need to specify the address clearly.
+
+You can close the `terminal` or start a new one, either ways it runs in the background, you can check by the following command.
+
     $sudo docker ps
 
 Now run the flask server.
@@ -29,5 +31,9 @@ Now run the flask server.
 
 You'll find the page in `localhost:5000` or `127.0.0.1:5000`, open the link in your browser.
 
-Upload the an image, and click the button to send, and you'll find the result.
+Upload the image, and click the button to send, and you'll find the result.
+
+## In Case of any error based on missing modules or modules not found. Run 
+
+     $pip3 install <module_name>
 
