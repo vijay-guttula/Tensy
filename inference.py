@@ -28,7 +28,17 @@ def get_prediction(image_path):
     #return resultpip 
     #print(result)
     prediction = np.squeeze(result['predictions'][0])
-    class_name = CLASSES[int(prediction > 0.5)]
-    return class_name
+    if prediction > 0.8 :
+        n = 1
+        class_name = CLASSES[n]
+    elif prediction < 0.1 :
+        n = 0
+        class_name = CLASSES[n]
+    else :
+        n = -1
+        class_name = "Definetly not a Dog Or Cat"
+    #n = int(prediction > 0.5)
+    
+    return class_name, prediction
 
 #print(get_prediction('dog.jpeg'))

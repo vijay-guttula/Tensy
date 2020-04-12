@@ -1,6 +1,7 @@
 {% extends "base.html" %} {% block content %}
 <div class="container">
     <h1>Predicted Class : {{ result.class_name }}</h1>
+    <h2>N : {{result.n}}</h2>
     <hr>
     <div class="row">
         <img src="{{ result.image_path }}" class="img-rounded" width="400" height="auto">
