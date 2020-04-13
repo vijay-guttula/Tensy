@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Dog or Cat Classifier Using TensorFlow
 
 ## Getting Started
@@ -36,7 +35,7 @@ You'll find the page in `localhost:5000` or `127.0.0.1:5000`, open the link in y
 
 Upload the image, and click the button to send, and you'll find the result.
 
-## In Case of any error based on missing modules or modules not found. Run 
+## In Case of any error based on missing modules or modules not found 
 
     $pip3 install <module_name>
 
